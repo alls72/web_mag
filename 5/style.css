@@ -1,0 +1,259 @@
+@media screen and (min-width: 1058px) {
+	
+
+    body {
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+
+
+    .left_side {
+        background-color: #1d282b;
+        width: 250px;
+        float: left;
+        margin-top: -20px;
+        padding-top: 30px;
+        height: 100%;
+		position: fixed;
+
+    }
+
+    .logo_text,
+    .social_img {
+        color: #56b7c8;
+        text-align: center;
+    }
+
+    .wrapper img {
+        width: 100%;
+        height: auto;
+    }
+    .wrapper ul {
+        list-style-type: square;
+    }
+	
+	
+    .social_img {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+    .go_icon {
+        width: 75px;
+    }
+
+    .left_menu li {
+        margin-left: -40px;
+        padding-left: 40px;
+    }
+
+    .left_menu a {
+        color: white;
+        text-decoration: none;
+        line-height: 2;
+    }
+
+    .menu_link {
+        width: 100%;
+        background-color: red;
+    }
+
+
+    .left_menu li {
+        width: 100%;
+        list-style-type: none;
+    }
+
+    .left_menu li:hover {
+        background-color: #0b9898;
+    }
+
+    .wrapper {
+        background-color: white;
+        margin-left: 250px;
+
+    }
+    
+    .footer_block h4 {
+        text-align: left;
+    }
+
+    .footer {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+
+    .footer_block {
+        padding: 30px;
+        display: inline-block;
+        vertical-align: top;
+        width: 200px;
+        height: 100%;
+    }
+
+    .footer img {
+        width: 200px;
+    }
+
+    .footer p {
+        text-align: left;
+    }
+
+    .text_block {
+        padding: 30px;
+    }
+
+    .social_img {
+        height:30px;
+        width: 80px;
+        margin: auto;
+        margin-bottom: 40px;
+        margin-top: 45px;
+    }
+    .tw_icon {
+        margin-right: 10px;
+        width: 30px;
+        height: 30px;
+        float: left;
+        background: url(images/social.png) no-repeat;
+        margin-bottom: 20px;
+    }
+    .go_icon {
+        margin-left: 10px;
+        width: 30px;
+        height: 30px;
+        float: left;
+        background: url(images/social.png) no-repeat;
+        background-position: -30px;
+        margin-bottom: 0px;
+    }
+    
+    a {
+        color: #1d1d1d;
+    }
+    
+    .hr {
+        margin-top:20px;
+        position: relative;
+        background: url(images/hr.png);
+        height: 6px;
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 1057px) {
+    html {
+        background-color: #1d282b;
+    }
+
+    .left_side {
+        background-image: url('images/swipe.png');
+        background-repeat: no-repeat;
+        background-position: top center;
+        color: white;
+        width: 50px;
+        float: left;
+        margin-top: 20px;
+        padding-top: 30px;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+    }
+
+    .logo_text,
+    .social_img {
+        display: none;
+        font-size: 13pt;
+        color: #56b7c8;
+        text-align: center;
+    }
+
+    .wrapper img {
+        width: 100%;
+        height: auto;
+    }
+
+    .social_img {
+        display: none;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .left_menu a {
+        display: none;
+        color: white;
+        text-decoration: none;
+        line-height: 2;
+    }
+
+    .menu_link {
+        display: none;
+        width: 100px;
+        background-color: red;
+    }
+
+    .left_menu li {
+        display: none;
+        width: 100px;
+        list-style-type: none;
+    }
+
+    .left_menu li:hover {
+        display: none;
+        background-color: #0b9898;
+    }
+
+    body {
+        font-family: "trebuchet ms";
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .wrapper img {
+        width: 100%;
+        height: auto;
+    }
+
+    .wrapper {
+        background-color: white;
+        margin-left: 50px;
+    }
+
+    .footer {
+        padding-top: 100px;
+        margin: auto;
+        padding: 30px;
+    }
+
+    .footer_block {
+        vertical-align: top;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .footer img {
+        width: 100%;
+        height: auto;
+    }
+
+    .text_block {
+        padding: 30px;
+    }
+
+}
+
+
+

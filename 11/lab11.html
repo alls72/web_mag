@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>Лабораторная 11</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<form name="rest">
+    <div class="main" style="float: left; padding-left: 10px; padding-right: 10px" >
+        <h3 style="margin-left: 90px;">Число элементов массива
+		<input type="text" oninput="pole()" onKeyPress="cislo()"  name="text9" style="width: 45px;">
+		<input type="button" name="but"  disabled onclick="zapol()" value="Создать массив">
+		</h3>
+			<p style="margin-bottom: 5px;">Исходный массив</p>
+			<input type="text" name="text0" readonly style="width: 345px;"></p>
+		<div class="left" style="width: 300px; float: left;">
+			<fieldset>
+			<legend>Определить</legend>
+			<input type="checkbox" name="checkmin">Минимальный элемент
+			<input type="text" name="mint" readonly style="width: 45px; margin-left: 21px"></p>
+			<input type="checkbox" name="checkmax">Максимальный элемент
+			<input type="text" readonly style="width: 45px;margin-left:17px;" name="maxt" ></p>
+			<input type="checkbox" name="sumsum">Сумма элементов
+			<input type="text" name="summa" readonly style="width: 45px; margin-left: 61px"></p>
+			<input type="checkbox" name="otric">Число отрицательных
+			<input type="text" name="otrotr" readonly style="width: 45px;margin-left: 30px"></p>
+			<input type="checkbox" name="poloj">Число не отрицательных
+			<input type="text" name="polpol" readonly style="width: 45px;margin-left: 11px"></p>
+			</fieldset>
+		</div>
+		<div class="rigth" style="width: 300px; float: right">
+		<fieldset style=" height: 206px;">
+			<legend>Сортировать</legend>
+			 <input type="radio" style="margin-bottom:35px;margin-top: 30px" name="pole1">По возрастанию<br>
+			 <input type="radio"name="pole1" style="margin-bottom:35px">По убыванию<br>
+			 <input type="radio" style="margin-bottom:20px" name="pole1">Без сортировки<br>
+			</fieldset>
+		</div>
+		<p style="margin-bottom: 5px; margin-top: 20px"> Отсортированный массив</p>
+			<input type="text" name="itog" readonly style="width: 345px;">
+            <input type="reset" value="Очистить">
+        </div>
+        
+    </div>
+    
+    
+
+
+</form>
+<script src="script.js" type="text/javascript"></script>
+    
+    
+</body>
+</html>

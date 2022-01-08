@@ -1,0 +1,277 @@
+@media screen and (max-width: 601px){
+    
+	
+	body{
+    	
+
+    }
+	html {
+		background: url(bg-illu1.jpg) no-repeat;
+		height: 100%;
+		-moz-background-size: 100%; /* Firefox 3.6+ */
+		-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+		-o-background-size: 100%;
+	
+	}
+	
+	
+
+	div{
+		width: 280px;
+		height: 40px;
+
+		font-family: Verdana;
+        color: white;
+        text-align: center;
+        padding-top: 5px;
+	}
+
+	.device{ 
+		position: relative;
+		margin: auto;
+		width: 290px;
+	}
+	.FirstBlock{
+		position: absolute;
+        background:#880088;       
+	}
+	
+	.FirstBlock:hover {
+		background-color: #884488;
+		
+	}
+	
+	.SecondBlock{
+		position: absolute;
+		background: #000088;
+		margin-top: 65px;
+	}
+	
+	.SecondBlock:hover {
+		background-color: #444488;
+		
+	}
+	.ThirdBlock{
+		position: absolute;
+		background: #880000;
+		margin-top: 130px;
+	}
+
+	.FourthBlock{
+		position: absolute;
+		background: #000088;
+		margin-top: 195px;
+	}
+
+	.imgDiv{
+		position: absolute;
+		background: url(logo-t4d-canvas.png) no-repeat;
+		background-size: cover;		
+		height: 60px;
+		width: 94px;
+		margin-top: 237px;
+		margin-left: 90px;
+
+	}
+
+    .text{
+	visibility:hidden;
+	
+    }
+
+    .FifthBlock{
+    	position: absolute;
+    	background:#880088;
+    	margin-top: 265px;
+    }
+
+    .SixthBlock{
+    	position: absolute;
+    	background:#880000;
+    	margin-top: 330px;
+    }
+
+    .SeventhBlock{
+    	position: absolute;
+    	background: #880088;
+    	margin-top: 400px;
+    }
+
+    .EighthBlock{
+    	position: absolute;
+    	background: #000088;
+    	margin-top: 470px;
+    }
+	.EighthBlock:hover {
+		background-color: #444488;
+		
+	}
+	.SeventhBlock:hover {
+		background-color: #884488;
+		
+	}
+	.SixthBlock:hover {
+		background-color: #884444;
+		
+	}
+	.FifthBlock:hover {
+		background-color: #444488;
+		
+	}
+	.FourthBlock:hover {
+		background-color: #444488;
+		
+	}
+}
+
+@media (min-width: 602px){
+	
+	body{
+		
+	
+	}
+	html {
+		height: 100%;
+		background: url(bg-illu4.jpg);
+		background-size: contain;
+		background-repeat: no-repeat;
+		-moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%;
+	}
+
+	div{
+		width: 150px;
+		height: 150px;
+
+		font-family: Verdana;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+	}
+
+	.device{
+		
+		margin: 0 auto;
+		width: 450px;
+		height: 450px;
+		margin-top: 270px;
+		}
+
+	.FirstBlock{
+		
+        background:#880088;  
+		float: left;	
+		
+	}
+	
+	.FirstBlock:hover {
+		background-color: #884488;
+		
+	}
+
+	.SecondBlock{
+		
+		background: #000088;
+		display: inline-block;
+		float: center;
+	}
+	.SecondBlock:hover {
+		background-color: #444488;
+		
+	}
+
+
+	.text {
+
+		float: bottom;
+		display: inline-block;
+		height: 45px;
+		width: 150px;
+		font-size: 10pt;
+		opacity: 0.5;
+	}
+	
+	.ThirdBlock{
+		float: right;
+		background: #880000;
+		display: inline-block;
+	}
+	.ThirdBlock:hover {
+		background-color: #884444;
+		
+	}
+
+
+	.FourthBlock{
+		float: left;
+		background: #000088;
+	}
+	.FourthBlock:hover {
+		background-color: #444488;
+		
+	}
+
+
+	.imgDiv{
+		float: center;
+		background: url(logo-t4d-canvas.png) no-repeat;
+		background-size: cover;		
+		height: 63px;
+		width: 96px;
+		display: inline-block;
+		
+
+	}
+
+   
+
+    .FifthBlock{
+    	float: right;
+    	background:#880088;
+    }
+	.FifthBlock:hover {
+		background-color: #444488;
+		
+	}
+
+    .SixthBlock{
+    	
+    	background:#880000;
+		float: left;
+		
+    	
+    }
+	.SixthBlock:hover {
+		background-color: #884444;
+		
+	}
+
+    .SeventhBlock{
+    	
+    	background: #880088;
+		float: center;
+		display: inline-block;
+    	
+    }
+	.SeventhBlock:hover {
+		background-color: #884488;
+		
+	}
+
+    .EighthBlock{
+    	float: right;
+    	background: #000088;
+    	
+    }
+	.EighthBlock:hover {
+		background-color: #444488;
+		
+	}
+	#centre {
+		float: centre;
+		display: inline-block;
+	}
+	p { padding-top: 10px;}
+
+}

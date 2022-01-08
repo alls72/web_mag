@@ -1,0 +1,62 @@
+<html>
+
+<head>
+
+    <title>Лабораторная 15</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<script src="script.js" type="text/javascript"></script>   
+
+<form name="rest" style="position: absolute">
+    <div class="mal"  id="mal" style="height: 640px; width: 1100px; border: 2px solid black; border-radius: 5px; background-color: #ccffff; padding-left: 10px">
+    <div class="main1" id="main" style="float: left; padding-left: 10px; padding-right: 10px; margin-top: 10px; margin-right: 10PX; background-color: #cccccc" >
+        <div id="cl" onclick="close1()" style="float: right; color: red">X</div>
+        <h3>Настройка страницы</h3>
+        <p style="margin-bottom: 0">Изображение:</p>
+        <div style="width: 225px; height: 50px">
+            <img src="fon_01.gif" style="width: 70px; height: 50px;" onclick="test1()">
+            <img src="fon_02.gif" style="width: 70px; height: 50px" onclick="test2()">
+            <img src="fon_03.gif" style="width: 70px; height: 50px" onclick="test3()">
+        </div>
+        <p style="margin-bottom: 0;font-weight: bold">Заголовок</p>
+        <p style="margin-bottom: 0; margin-top: 0">Выравнивание:</p>
+        <p style="margin-bottom: 0; margin-top: 0"><span onclick="float_right()">справа,</span> <span onclick="float_center()">по центру,</span> <span onclick="float_left()">слева.</span></p>
+        <p style="margin-bottom: 0">Цвет шрифта:</p>
+        <div style="height: 25px; width: 190px; display: inline-block">
+            <div id="green" style="width: 60px; height: 25px; background-color: darkgreen; display: inline-block" onclick="green1()"></div>
+            <div style="width: 60px; height: 25px; background-color: darkblue; display: inline-block" onclick="blue()"></div>
+            <div style="width: 60px; height: 25px; background-color: darkred; display: inline-block" onclick="red()"></div>
+        </div>
+        <p style="margin-bottom: 0">Гарнитура шрифта</p>
+        <p style="margin-bottom: 0; margin-top: 0"><span onclick="Taxoma()">Taxoma,</span> <span onclick="Impact()">Impact,</span> <span onclick="Georgia()">Georgia,</span> <span onclick="Courier()">Courier</span></p>
+        <p style="margin-bottom: 0; font-weight: bold">Текст</p>
+        <p style="margin-bottom: 0; margin-top: 0;">Кегль шрифта:</p>
+        <select name="select" onchange="size1()">
+            <option>12пт</option>
+            <option>14пт</option>
+        </select>
+        <p style="margin-bottom: 0; font-weight: bold">Иллюстрация</p>
+        <p style="margin-bottom: 0; margin-top: 0;">Ширина:</p>
+        <input type=text name="ww" style="width: 90px" oninput="wid()">px
+        <p style="margin-bottom: 0; margin-top: 0">Выравнивание:</p>
+        <p style="margin-bottom: 0; margin-top: 0"><span onclick="float_right1()">справа,</span> <span onclick="float_left1()">слева.</span></p>
+        <input type=button value="Изменить содержимое" onclick="tt()" style="margin-left: 100px"> 
+    </div>
+        <div  id="head" style="width: auto; height: 30px; margin-left: 10px;margin-right: 10px;"><h3 id="float1">Экология и климат в Тюмени</h3></div>
+        <img src="02.jpg" id="pic" style="float: right; height: 200px; margin-top: 10px; margin-right: 10px; margin-left: 10px; margin-bottom: 10px  ">
+        <p style="text-align: justify">Климат в Тюмени загадочен и не предсказуем. Благодаря своему положению, Тюмень подвержена влиянию ветров, что идут с севера через равнину и с юга из жарких казахских степей. Когда-то, во времена бабушек, в Тюмени были суровые зимы с низкими температурами и большим количеством снега.</p>
+        <p style="text-align: justify">Сейчас всё не так. Снежная зима – это редкость, а сама зима тёплая и температура ниже тридцати – скорее исключение, воспринимаемое как великий и, к сожалению, редкий праздник у детей школьного возраста. Обычно, такие детские праздники случаются в первом месяце года.</p>
+        <p style="text-align: justify">Времена года здесь состоят из затяжных вёсен, короткого лета, осени и трёх-четырёх месячной зимы. Лето хоть и коротко, но в эти дни солнце особо старается выдать все причитающееся городу лучи тепла. Одежда на низкие плюсовые температуры висит у жителей города всю позднюю весну, лето и раннюю осень, и является наиболее часто носимой. А ситуация, когда утром выходишь в тёплой весенней куртке, в обед её оставляешь на работе и идёшь погулять под приятным солнцем в рубашке, вечером возвращаешься домой опять в куртке под дождём, а поздно вечером отправляешься гулять с собакой уже в куртке на минусовую температуру под снег, никого не удивляет, хоть и является не приятным осенним или весенним сюрпризом для большинства горожан.</p>
+        <div id="chan" style="position: absolute; margin-left: 450px; margin-top: -200px; height: 80px; width: 200px; background-color: #cccccc; visibility: hidden">
+            <p style="margin-bottom: 0; text-align: center">Изменить заголовок</p>
+            <input name="na" id="vvv" type=text style="margin-left: 15px" oninput="vvod()">
+            <input type=button value="Закрыть" onclick="hidd()" style="margin-left: 65px">
+        </div>
+    </div>
+    
+</form>
+    
+    
+</body>
+</html>

@@ -1,0 +1,12 @@
+body{
+    background: #e6e6fa;
+}
+.main
+    {
+        width: 650px;
+        border: 1px solid black;
+        border-radius: 5px;
+        display: inline-block;
+        background-color: lightgoldenrodyellow;
+        padding-left: 10px;
+    }

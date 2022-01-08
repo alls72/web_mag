@@ -1,0 +1,49 @@
+<html>
+
+<head>
+
+    <title>Лабораторная 12</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<script src="script.js" type="text/javascript"></script>   
+
+<form name="lec">
+    <div class="main" style="float: left; padding-left: 10px; padding-right: 10px" >
+        <h3>Работа с датами</h3>
+			
+		<div class="left" style="width: 300px; float: left;">
+			<fieldset>
+			<legend>Определить</legend>
+			     <input type="radio"name="pole1" style="margin-bottom:20px">Количество дней<br>
+			     <input type="radio" style="margin-bottom:20px" name="pole1">Количество выходных<br>
+                 <input type="radio"name="pole1" style="margin-bottom:20px">Количество рабочих дней<br>
+			     <input type="radio" style="margin-bottom:20px" name="pole1">Количество полных недель<br>
+                <input type="radio" style="margin-bottom:20px" name="pole1">Количество полных месяцев<br>
+                
+			</fieldset>
+            <input type="text" name="vyv" readonly style="margin-bottom: 15px; margin-top: 15px;">
+            <input type="button" onclick="test()" style="margin-top: 10px; width: 100px;" value="Вычислить">
+            
+		</div>
+        
+        
+		<div class="rigth" style="width: 300px; float: right">
+            Начало периода (месяц.день.год)<br>    
+            <input type="text" name="data" style="margin-bottom: 15px; margin-top: 15px;"><br>
+            Конец периода<br>
+            <input type="date" style="margin-top: 15px;" name="data2">
+		</div>
+		
+        </div>
+        
+    
+    
+    
+
+
+</form>
+    
+    
+</body>
+</html>

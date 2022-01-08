@@ -1,0 +1,13 @@
+body{
+    background: #f0f0f0;
+    display: inline-block;
+
+}
+.main
+    {
+        height: 500px;
+        width: 710px;
+        border: 2px solid #008080;
+        border-radius: 5px;
+        display: inline-block;
+    }

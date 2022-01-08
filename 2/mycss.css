@@ -1,0 +1,19 @@
+body { }
+
+.table1{
+	    table{
+			border-collapse: collapse; 
+			border: 1px solid grey; 
+		}
+		
+		
+		td, th {
+    padding: 5px;
+    border: 2px solid green; 
+   }
+
+		
+		
+		
+		
+		}

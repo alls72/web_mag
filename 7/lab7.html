@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    
+    <title>Лабораторная 7</title>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<script src="script.js" type="text/javascript"></script>   
+    
+<h1 style="color:#006400; margin-left: 50px; margin-top: 25px">Расчет количества обоев для комнаты</h1>
+
+<div style="width: 550px; height: 370px; margin-left: 50px; border-top: 2px solid lightgrey; border-bottom: 2px solid lightgrey">
+    <form name="oboi">
+        
+        <H3>Параметры комнаты(м.)</h3>
+        
+        <p style="font-weight: bold">Длина комнаты: <input type=text id="id1" oninput="check()" style="margin-left: 150px"  name="pole1"></P>
+        
+        <p style="font-weight: bold">Ширина: <input type=text  style="margin-left: 204px" oninput="check()" name="pole2"></P>
+        
+        <p style="font-weight: bold">Высота: <input type=text  style="margin-left: 212px" oninput="check()" name="pole3"></P>
+        
+        <H3>Параметры рулона обоев(м.)</h3>
+        
+        <p style="font-weight: bold">Ширина рулона: <input type=text style="margin-left: 150px" oninput="check()" name="pole4"></P>
+        
+        <p style="font-weight: bold">Длина рулона: <input type=text style="margin-left: 165px" oninput="check()" name="pole5"></P>
+        
+        <p style="font-weight: bold">Количество рулонов: <input type=text style="margin-left: 275px; margin-top: -15px" id="id" name="pole6" ></P>
+        
+        <p><input type="button" disabled="true" oninput="check()" style="margin-left: 275px" onClick="vyvod()" oninput="check()" id="but" value="Вычислить!">
+    
+    </form>
+
+</div> 
+    
+</body>
+</html>

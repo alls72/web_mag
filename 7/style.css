@@ -1,0 +1,15 @@
+body{
+    background: #e6e6fa;
+}
+.main
+{
+    width: 650px;
+    height: 400px;
+    border: 1px solid black;
+    display: inline-block;
+}
+.box
+{
+    margin-bottom: 15px;
+    margin-left: 15px;
+}

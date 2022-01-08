@@ -1,0 +1,56 @@
+
+<html>
+
+<head>
+
+    <title>Лабораторная 13</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<script src="script.js" type="text/javascript"></script>   
+     
+<h1 style="color:#006400; margin-left: 50px; margin-top: 25px">Форма для оформления заказа</h1>
+
+<div style="width: 550px; height: 520px; margin-left: 50px; border-top: 2px solid lightgrey; border-bottom: 2px solid lightgrey">
+    <form name="doc">
+        
+        <p style="font-weight: bold">ФИО: <input type=text name="name" oninput="knopka()" style="margin-left: 207px"></p>
+        
+        <p style="font-weight: bold">Город:</p>
+            <p><label><input type="radio" name="town" >Москва</label></p>
+            <p><label><input type="radio" name="town" >Санкт-Петербург</label></p>
+            <p><label><input type="radio" name="town" >Рязань</label></p>
+            <p><label><input type="radio" name="town" >Тюмень</label></p>
+            <p><label><input type="radio" name="town" >Тобольск</label></p>
+        
+        <p style="font-weight: bold">Адрес: <input type=text  oninput="knopka()" style="margin-left: 203px" name="adres"></p>      
+        
+        <p style="font-weight: bold">Телефон: <input type=text oninput="knopka()" style="margin-left: 184px" name="phone"></p>
+        
+        <p style="font-weight: bold">Электронная почта: <input type=text oninput="knopka()" style="margin-left: 104px" name="email"></p>
+        
+        <p style="font-weight: bold">СНИЛС: <input type=text oninput="knopka()" style="margin-left: 186px; margin-top: -15px" name="snils" ></p>
+        
+        <p style="font-weight: bold">Товар: <select name="tovar" style="margin-left: 20px; width: 173px; margin-left: 203px">
+                <option>Тарелка</option>
+                <option>Лампочка</option>
+                <option>Чайник</option>
+                <option>Цветок</option>
+                <option>Молоток</option>
+                <option>Итальянский</option>
+            </select> </p>
+        
+        <p style="font-weight: bold">Количество: <input type=text oninput="knopka()" onKeyPress="cislo()" style="margin-left: 161px" name="count"></p>
+        
+        <p><input type="reset" style="margin-left: 275px"   value="Очистить!">
+            <input type="button" style="margin-left: 150px; margin-top: -20px" name="button"  onclick="check()" value="Отправить!">
+    
+    </form>
+</div>
+
+    
+    
+    
+    
+</body>
+</html>

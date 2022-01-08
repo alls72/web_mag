@@ -1,0 +1,15 @@
+body{
+    background: #f0f0f0;
+    display: inline-block;
+}
+@font-face {
+    font-family: Taxoma; /* Имя шрифта */
+        src: url(9688.ttf); } /* Путь к файлу со шрифтом */
+
+    .main1
+    {
+        height: auto;
+        border: 2px solid #008080;
+        border-radius: 5px;
+        display: inline-block;
+    }

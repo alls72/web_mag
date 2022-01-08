@@ -1,0 +1,61 @@
+<html>
+
+<head>
+
+    <title>Лабораторная 16</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<script src="script.js" type="text/javascript"></script>   
+    
+<form name="lec">
+    <div class="main" style="float: left">
+        <h3 style="text-align: center">Контрольная</h3>
+        <div>
+            1) Состав средств и способы представления знаний для экспертной системы определяются на этапе:<br>
+            <label><input type=radio  onchange="kol()" style="margin-top: 10px" name="pole1">Идентификации<br></label>
+            <label><input type=radio class="radio" onchange="kol()" name="pole1">Концептуализации<br></label>
+            <label><input type=radio class="radio" onchange="kol()" name="pole1">Формализации (верно, +1 балл)<br></label>
+            <label><input type=radio class="radio" onchange="kol()" name="pole1">Выполнения<br></label>
+            Баллы <input type=text  readonly style="margin-top: 10px" name="text1">
+        </div>
+        
+        <div style="margin-top: 20px">
+            2) Для плохо формализуемых задач наиболее подходящим аппаратом является:<br>
+            <label><input type="checkbox" class="box" onchange="kold()" name="pole21">Нейронная сеть (верно, +2 балла)<br></label>
+            <label><input type="checkbox" class="box" onchange="kold()" name="pole22">Контекстно-зависимая грамматика (ошибка, -1 балл) <br></label>
+            <label><input type="checkbox" class="box" onchange="kold()" name="pole23">Семантическая сеть (ошибка, -1 балл)<br></label>
+            <label><input type="checkbox" class="box" onchange="kold()" name="pole24">Генетический алгоритм (верно, +2 балла) <br></label>
+            Баллы <input type=text  readonly style="margin-top: 10px" oninput="check()" name="text2">
+        </div>
+        
+        <div style="margin-top: 20px">
+            3)Каков результат вывода утверждения логики высказываний: PVS, P->(R&~R)? (буквы)<br>
+            <br>Введите ответ: Ответ: S (верно, +1 балл)<br>
+            <input type="text" style="margin-left: 47px" oninput="div3()"  name="pole3"><br>
+            Баллы <input type=text  readonly style="margin-top: 10px" oninput="check()" name="text3">
+        </div>
+        
+        <div style="margin-top: 20px">
+            Одним из определяющих признаков интеллектуальности системы является:<br>
+            <select name="s1" onchange="div4()" onchange="vyvod()" style="margin-left: 47px; margin-top: 10px; width: 175px">
+                <option>Выберите ответ</option>
+                <option>Высокая вычислительная сложность решаемых задач </option>
+                <option>Отсутствие готового алгоритма для решения всех задач (верно, +1 балл)</option>
+                <option>Учет специфики проблемной области</option>
+                <option>Использование естественного языка в работе системы</option>
+            </select><br>
+            Баллы <input type=text  readonly style="margin-top: 10px" name="text4">
+        </div>
+        <p><input type="button"  onClick="vyvod()" style="margin-left: 100px"  value="Завершить тестирование">
+            <input type="reset" style="margin-left: 100px"  value="Очистить">
+        
+    </div>
+    
+        
+</form>
+    
+    
+</body>
+</html>
+

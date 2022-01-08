@@ -1,0 +1,21 @@
+body{
+    background: #e6e6fa;
+}
+.main
+{
+    width: 650px;
+    height: 300px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.box
+{
+    margin-bottom: 15px;
+    margin-left: 15px
+}
+
+#img1, #img2, #img3, #img4, #img5
+{
+    position: absolute;
+}
